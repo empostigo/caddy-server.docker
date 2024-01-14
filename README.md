@@ -19,7 +19,7 @@ There are two environment variables used in the Dockerfile, which you can use to
 Use -e UID=your_uid -e  GID=your_gid to set them.  
 To launch a fully fonctionnal container, issue this command:  
 ```
-docker run -v $(pwd)/caddy:/var/lib/caddy -e UID=your_uid -e GID=your_gid -p 80:80 -p 443:443 aexerces/caddy-server caddy run  --config /var/lib/caddy/Caddyfile
+docker run -v $(pwd)/caddy:/var/lib/caddy -p 80:80 -p 443:443 empostigo/caddy-server caddy run  --config /var/lib/caddy/Caddyfile
 ```
 You need to expose both 80 and 443 ports to reach the world :)  
 If things get well, you'll see by the end of the output:  
