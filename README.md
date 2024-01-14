@@ -26,3 +26,4 @@ If things get well, you'll see by the end of the output:
 ```
 Certificate obtained successfully
 ```
+In the middle of a bunch 😇
